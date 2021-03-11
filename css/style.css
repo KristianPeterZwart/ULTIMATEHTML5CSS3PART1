@@ -5,3 +5,12 @@ body {
 p {
     color: orange;
 }
+
+.product {
+
+}
+
+a[href^="https"] 
+{
+    color: orange;
+}
