@@ -1,12 +1,8 @@
-article first-of-type {
-    font-size: 140%
-    font-style: italic;
+body {
+    margin: 10px;
 }
 
-article last-of-type {
-    font-weight: bold;
-}
-
-ul li:nth-child(odd) {
-    color: deeppink
+.first-letter {
+    font-size: 140%;
+    font-weight: bold
 }
