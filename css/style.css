@@ -1,22 +1,26 @@
-body {
-    margin: 10px;
+
+
+h1 {
+    color: dodgerblue;
 }
 
-p::first-letter {
-    font-size: 140%;
-    font-weight: bold;
+.highlight {
+    color: deeppink;
+}
+
+#products  {
+    color: green;
+}
+
+.highlight#products {
+    color: dodgerblue;
+}
+
+h1#products {
+    color: blue
 }
 
 
-p::first-line {
-    font-weight: bold;
-}
-
-::selection {
-    background-color: pink;
-}
-
-p::before {
-    content: "...";
-    display: block;
+.featured #products {
+    color: blue;
 }
